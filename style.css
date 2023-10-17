@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "SDGothic";
+  src: url(./font/AppleSDGothicNeoR.ttf);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "SDGothic";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 40%;
+}
+header img {
+  height: 90%;
+  margin-left: 23%;
+  border: 1px solid;
+}
+header div {
+  flex-direction: column;
+  margin-left: 5%;
+}
+header h1 {
+  font-size: 35px;
+}
+header table {
+  font-size: 18px;
+  text-align: left;
+}
+header th,
+header td {
+  padding: 5px 5px;
+}
+header audio {
+  padding: 10px 0px;
+  height: 35px;
+  width: 250px;
+}
+hr {
+  border: 1px solid green;
+  margin: 0px;
+}
+
+.content {
+  display: flex;
+  font-size: 18px;
+}
+nav {
+  background-color: yellow;
+  width: 20%;
+  border-right: 1px solid green;
+}
+nav ul {
+  padding: 30px 30px;
+  line-height: 1.8em;
+  list-style-type: none;
+  font-size: 23px;
+}
+section {
+  width: 80%;
+}
+article {
+  padding: 2% 5%;
+}
+article h2 {
+  letter-spacing: 0.1ch;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+article table {
+  border: 2px solid;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+article th,
+article td {
+  border: 1px solid;
+  padding: 15px 10px;
+}
+article th {
+  background-color: aqua;
+  color: rgb(248, 23, 192);
+}
+article ul {
+  line-height: 1.8em;
+  list-style-type: none;
+  padding-left: 0px;
+}
+article ul p {
+  margin: 0px 10px;
+  color: rgb(75, 75, 75);
+  line-height: 1.5em;
+}
+article span {
+  font-weight: bold;
+}
+footer {
+  background-color: blue;
+  height: 10%;
+}
