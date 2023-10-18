@@ -19,7 +19,8 @@ header {
 header img {
   height: 90%;
   margin-left: 23%;
-  border: 1px solid;
+  border: 3px solid transparent;
+  background: linear-gradient(to left, transparent, pink, skyblue, transparent);
 }
 header div {
   flex-direction: column;
@@ -27,6 +28,7 @@ header div {
 }
 header h1 {
   font-size: 35px;
+  color: #7bbeec;
 }
 header table {
   font-size: 18px;
@@ -36,64 +38,83 @@ header th,
 header td {
   padding: 5px 5px;
 }
+header th {
+  color: #ffd8df;
+}
+header td {
+  color: grey;
+}
+header a {
+  color: grey;
+}
 header audio {
   padding: 10px 0px;
   height: 35px;
-  width: 250px;
+  width: 270px;
 }
 hr {
-  border: 1px solid green;
+  border: 0px;
+  height: 20px;
+  background: linear-gradient(to left, transparent, pink, skyblue, transparent);
   margin: 0px;
 }
 
 .content {
   display: flex;
   font-size: 18px;
+  color: grey;
 }
 nav {
-  background-color: yellow;
+  background: linear-gradient(to left, #b9e3f4, white);
   width: 20%;
-  border-right: 1px solid green;
 }
 nav ul {
-  padding: 30px 30px;
+  padding: 30px 40px;
   line-height: 1.8em;
   list-style-type: none;
-  font-size: 23px;
+  font-size: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: grey;
 }
 section {
   width: 80%;
+}
+section a {
+  color: rgb(45, 45, 45);
 }
 article {
   padding: 2% 5%;
 }
 article h2 {
+  color: #93c6e7;
   letter-spacing: 0.1ch;
   font-size: 30px;
   line-height: 1.5em;
 }
 article table {
-  border: 2px solid;
   border-collapse: collapse;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 article th,
 article td {
-  border: 1px solid;
-  padding: 15px 10px;
+  padding: 10px 10px;
+  vertical-align: top;
+  text-align: left;
 }
 article th {
-  background-color: aqua;
-  color: rgb(248, 23, 192);
+  color: #ffd8df;
 }
 article ul {
   line-height: 1.8em;
   list-style-type: none;
   padding-left: 0px;
+  margin-bottom: 100px;
 }
 article ul p {
   margin: 0px 10px;
-  color: rgb(75, 75, 75);
+  color: #dbd1d0;
   line-height: 1.5em;
 }
 article span {
@@ -101,5 +122,14 @@ article span {
 }
 footer {
   background-color: blue;
-  height: 10%;
+  height: 20%;
+  background: linear-gradient(to left, transparent, pink, skyblue, transparent);
+  padding: 2% 24% 0% 23.5%;
+}
+footer p {
+  margin: 0px 0px 5px 0px;
+  color: grey;
+}
+footer a {
+  color: rgb(45, 45, 45);
 }
