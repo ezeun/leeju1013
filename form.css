@@ -43,7 +43,7 @@ hr {
   color: grey;
 }
 section {
-  padding: 2% 5%;
+  padding: 2% 5% 7% 5%;
 }
 form div {
   margin-bottom: 90px;
@@ -54,6 +54,34 @@ form > div > h2 {
   font-size: 30px;
   line-height: 1.5em;
   margin: 20px 0px;
+}
+#select {
+  color: grey;
+  height: 30px;
+  border: 2px solid #93c6e7;
+  border-radius: 10px;
+}
+#select:hover {
+  background-color: #d7ebf9;
+}
+textarea {
+  height: 150px;
+  width: 500px;
+  padding: 10px 10px;
+  color: grey;
+  border: 2px solid #93c6e7;
+  border-radius: 10px;
+}
+textarea:hover {
+  background-color: #d7ebf9;
+}
+button {
+  background-color: #cdebff;
+  border-color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  color: rgb(78, 78, 78);
 }
 
 footer {

@@ -30,40 +30,40 @@
             <input type="radio" name="completion" /> 2점&nbsp;&nbsp;
             <input type="radio" name="completion" /> 3점&nbsp;&nbsp;
             <input type="radio" name="completion" /> 4점&nbsp;&nbsp;
-            <input type="radio" name="completion" /> 5점&nbsp;&nbsp;
+            <input type="radio" name="completion" checked /> 5점&nbsp;&nbsp;
           </div>
           <div>
             <h2>디자인</h2>
-            <input type="radio" name="completion" /> 1점&nbsp;&nbsp;
-            <input type="radio" name="completion" /> 2점&nbsp;&nbsp;
-            <input type="radio" name="completion" /> 3점&nbsp;&nbsp;
-            <input type="radio" name="completion" /> 4점&nbsp;&nbsp;
-            <input type="radio" name="completion" /> 5점&nbsp;&nbsp;
+            <input type="radio" name="design" /> 1점&nbsp;&nbsp;
+            <input type="radio" name="desig" /> 2점&nbsp;&nbsp;
+            <input type="radio" name="desig" /> 3점&nbsp;&nbsp;
+            <input type="radio" name="desig" /> 4점&nbsp;&nbsp;
+            <input type="radio" name="desig" checked /> 5점&nbsp;&nbsp;
           </div>
           <div>
             <h2>컨텐츠</h2>
-            <input type="radio" name="completion" /> 1점&nbsp;&nbsp;
-            <input type="radio" name="completion" /> 2점&nbsp;&nbsp;
-            <input type="radio" name="completion" /> 3점&nbsp;&nbsp;
-            <input type="radio" name="completion" /> 4점&nbsp;&nbsp;
-            <input type="radio" name="completion" /> 5점&nbsp;&nbsp;
+            <input type="radio" name="contents" /> 1점&nbsp;&nbsp;
+            <input type="radio" name="contents" /> 2점&nbsp;&nbsp;
+            <input type="radio" name="contents" /> 3점&nbsp;&nbsp;
+            <input type="radio" name="contents" /> 4점&nbsp;&nbsp;
+            <input type="radio" name="contents" checked /> 5점&nbsp;&nbsp;
           </div>
           <div>
             <h2>총점</h2>
-            <input type="text" list="total" />
+            <input id="select" type="text" list="total" />
             <datalist id="total">
               <option value="1~3점"></option>
               <option value="4~6점"></option>
               <option value="7~9점"></option>
               <option value="10~12점"></option>
-              <option value="13~15점"></option>
+              <option value="13~15점" selected></option>
             </datalist>
           </div>
           <div>
             <h2>남기고 싶은 말</h2>
-            <textarea></textarea>
+            <textarea>페이지 개선사항에 대해 자유롭게 피드백해주세요!</textarea>
           </div>
-          <button>제출</button>
+          <button type="submit">제출</button>
         </form>
       </section>
     </div>
