@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>설문조사</title>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+  </head>
+  <body>
+    <!--헤더-->
+    <header>
+      <div>
+        <h1>설문조사</h1>
+        <p>
+          <a href="./index.html">leeju1013 페이지</a>에 대한 의견을 듣습니다.
+          많은 참여 부탁드립니다 :)
+        </p>
+      </div>
+    </header>
+    <hr />
+    <div class="content">
+      <!--내비게이션
+      <nav></nav>-->
+      <!--섹션-->
+      <section>
+        <!--폼-->
+        <form>
+          <div>
+            <h2>완성도</h2>
+            <input type="radio" name="completion" /> 1점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 2점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 3점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 4점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 5점&nbsp;&nbsp;
+          </div>
+          <div>
+            <h2>디자인</h2>
+            <input type="radio" name="completion" /> 1점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 2점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 3점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 4점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 5점&nbsp;&nbsp;
+          </div>
+          <div>
+            <h2>컨텐츠</h2>
+            <input type="radio" name="completion" /> 1점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 2점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 3점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 4점&nbsp;&nbsp;
+            <input type="radio" name="completion" /> 5점&nbsp;&nbsp;
+          </div>
+          <div>
+            <h2>총점</h2>
+            <input type="text" list="total" />
+            <datalist id="total">
+              <option value="1~3점"></option>
+              <option value="4~6점"></option>
+              <option value="7~9점"></option>
+              <option value="10~12점"></option>
+              <option value="13~15점"></option>
+            </datalist>
+          </div>
+          <div>
+            <h2>남기고 싶은 말</h2>
+            <textarea></textarea>
+          </div>
+          <button>제출</button>
+        </form>
+      </section>
+    </div>
+    <!--푸터-->
+    <footer>
+      <p>Copyright 2023 by ezeun</p>
+    </footer>
+  </body>
+</html>

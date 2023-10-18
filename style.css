@@ -19,7 +19,7 @@ header {
 header img {
   height: 90%;
   margin-left: 23%;
-  border: 3px solid transparent;
+  border: 4px solid transparent;
   background: linear-gradient(to left, transparent, pink, skyblue, transparent);
 }
 header div {
@@ -69,14 +69,14 @@ nav {
   width: 20%;
 }
 nav ul {
-  padding: 30px 40px;
+  padding: 30px 45px;
   line-height: 1.8em;
   list-style-type: none;
   font-size: 25px;
 }
 nav a {
   text-decoration: none;
-  color: grey;
+  color: #ffc3da;
 }
 section {
   width: 80%;

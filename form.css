@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "SDGothic";
+  src: url(./font/AppleSDGothicNeoR.ttf);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "SDGothic";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 40%;
+}
+header div {
+  flex-direction: column;
+  margin-left: 5%;
+}
+header h1 {
+  font-size: 35px;
+  color: #7bbeec;
+}
+header a {
+  color: grey;
+}
+header p {
+  font-size: 19px;
+}
+hr {
+  border: 0px;
+  height: 20px;
+  background: linear-gradient(to left, transparent, pink, skyblue, transparent);
+  margin: 0px;
+}
+
+.content {
+  display: flex;
+  font-size: 18px;
+  color: grey;
+}
+section {
+  padding: 2% 5%;
+}
+form div {
+  margin-bottom: 90px;
+}
+form > div > h2 {
+  color: #93c6e7;
+  letter-spacing: 0.1ch;
+  font-size: 30px;
+  line-height: 1.5em;
+  margin: 20px 0px;
+}
+
+footer {
+  background-color: blue;
+  height: 20%;
+  background: linear-gradient(to left, transparent, pink, skyblue, transparent);
+  padding: 2% 5%;
+}
+footer p {
+  margin: 0px 0px 5px 0px;
+  color: grey;
+}
